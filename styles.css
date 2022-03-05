@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(40,112,115), rgb(48,62,143));
+    background:linear-gradient(rgb(238, 158, 135), rgb(235, 126, 96)) ;
+    color: rgb(72,72,74);
+    text-shadow: 1px 1px white;
+
+}
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location-timezone{
+    color: cornsilk;
+    font-size: 50px;
+    text-shadow: 2px 2px #48484A;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    font-size: 50px;
+    margin: 10px;
+}
+.degree-section h2{
+    font-size: 50px;
+}
+.min-max-hum{
+    display: flex;
+    margin: 3px;
+}
+.min-max-hum h2{
+    margin: 3px;
+}
+.temperature-description {
+    font-size: 40px;
+}
